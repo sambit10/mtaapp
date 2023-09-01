@@ -1,5 +1,8 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> b87f9d6 (push)
   "name": "mta-project",
   "version": "0.0.1",
   "description": "Build and deployment scripts",
@@ -7,13 +10,18 @@
     "clean": "rimraf resources mta_archives mta-op*",
     "build": "rimraf resources mta_archives && mbt build --mtar archive",
     "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
+<<<<<<< HEAD
     "undeploy": "cf undeploy basicmta --delete-services --delete-service-keys --delete-service-brokers"
+=======
+    "undeploy": "cf undeploy CICD --delete-services --delete-service-keys --delete-service-brokers"
+>>>>>>> b87f9d6 (push)
   },
   "devDependencies": {
     "mbt": "^1.2.18",
     "rimraf": "^3.0.2"
   }
 }
+<<<<<<< HEAD
 =======
     "name": "ui",
     "version": "0.0.1",
@@ -55,3 +63,5 @@
     }
 }
 >>>>>>> d3b1fe6 (commit)
+=======
+>>>>>>> b87f9d6 (push)
